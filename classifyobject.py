@@ -28,7 +28,7 @@ class ClassifyObject(Preview):
         elif enable_edgetpu:
             model = 'object_detection/efficientdet_lite0_edgetpu.tflite'
         else:
-            model = 'object_detection/efficientdet_lite0.tflite'
+            model = r'C:\Users\mrsto\Desktop\c4k_tflite_example\object_detection\efficientdet_lite0.tflite'#'object_detection/efficientdet_lite0.tflite'
         options = ObjectDetectorOptions(
             num_threads = 4,
             score_threshold = 0.45,
